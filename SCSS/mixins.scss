@@ -1,0 +1,33 @@
+@mixin flex ($align, $justify){
+    display: flex;
+    align-items: $align;
+    justify-content: $justify;
+}
+
+$maxWidth:1920px;
+$maxWidthContainer: 1220px;
+@mixin adaptive-value($property, $startSize, $minSize, $type) {
+    $addSize: $startSize - $minSize;
+
+    @if $type == 1 {
+        #{$property}: $startSize + px;
+        @media (max-width:#{$maxWidthContainer + px}) {
+            #{$property}: calc(
+                #{$minSize + px} + #{$addSize} *
+                    ((100vw - 320px) / #{$maxWidthContainer - 320})
+            )
+        }
+    } @else if $type == 2 {
+        #{$property}: $startSize + px;
+        @media (max-width:#{$maxWidthContainer + px}) {
+            #{$property}: calc(
+                #{$minSize + px} + #{$addSize} *
+                    ((100vw - 320px) / #{$maxWidthContainer - 320})
+            );
+        }
+    } @else {
+        #{$property}: clac(
+            #{$minSize + px} + #{$addSize} *  ((100vw - 320px) / #{$maxWidthContainer - 320})
+        )
+    }
+}

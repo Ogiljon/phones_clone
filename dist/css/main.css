@@ -1,0 +1,398 @@
+@import url(https://fonts.googleapis.com/css?family=Readex+Pro:200,300,regular,500,600,700);
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
+@font-face {
+  font-family: "Segoe";
+  src: url("../fonts/4735dd9ca25670c44600021e7428b8d3.eot"); /* IE9*/
+  src: url(" ../fonts/4735dd9ca25670c44600021e7428b8d3.eot?#iefix") format("embedded-opentype"), url("../fonts/4735dd9ca25670c44600021e7428b8d3.woff2") format("woff2"), url("../fonts/4735dd9ca25670c44600021e7428b8d3.woff") format("woff"), url("../fonts/4735dd9ca25670c44600021e7428b8d3.ttf") format("truetype"), url("../fonts/4735dd9ca25670c44600021e7428b8d3.svg#Segoe") format("svg"); /* iOS 4.1- */
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+html, body {
+  height: 100vh;
+}
+
+li,
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  border: 0;
+  background-color: transparent;
+}
+
+.wrapper {
+  font-family: "Readax Pro", sans-serif;
+  font-style: normal;
+}
+
+.container {
+  width: 100%;
+  max-width: 1335px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+/* HEADER - START*/
+.header {
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+.header__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: #000000;
+  margin-right: 33px;
+}
+.header__icon {
+  margin-right: 27px;
+}
+
+/* HEADER - END*/
+/* HEADER - START*/
+.main .coloured {
+  flex: 1 1 auto;
+  margin: 0 auto;
+  width: 1294px;
+  border-radius: 32px;
+  background-color: #DCE5E2;
+}
+.main .coloured__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main .coloured__left {
+  padding-left: 56px;
+  width: 600px;
+}
+.main .coloured__title {
+  font-family: "Readax Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 160%;
+  color: #000000;
+  padding-bottom: 19px;
+}
+.main .coloured___desc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  color: #000000;
+}
+.main .coloured__right {
+  width: 647px;
+}
+.main .coloured__right img {
+  width: 100%;
+  height: 100%;
+}
+.main .coloured__btn {
+  padding: 14px 53px;
+  width: 170px;
+  height: 50px;
+  margin-top: 30px;
+  border: 1px solid #000;
+  border-radius: 200px;
+}
+.main .coloured__btn:hover {
+  background-color: blue;
+}
+.main .platform {
+  margin-top: 72px;
+}
+.main .platform__boxes {
+  background-color: #F5F5F5;
+}
+.main .platform__title {
+  padding-bottom: 9px;
+  font-family: "Readex Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 125%;
+  text-align: center;
+  color: #000000;
+}
+.main .platform__desc {
+  margin: 0 auto;
+  width: 620px;
+  font-family: "Readex Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+  text-align: center;
+  color: #000000;
+  padding-bottom: 55px;
+}
+.main .platform .platform__row {
+  display: flex;
+  align-items: center;
+}
+.main .platform__left {
+  margin-right: 16px;
+}
+.main .platform__box {
+  width: 639px;
+  height: 472px;
+  border-radius: 32px;
+  margin-bottom: 72px;
+  background-color: #fff;
+}
+.main .platform__box-img {
+  padding: 0 97px 95px 42px;
+  width: 500px;
+  height: 377px;
+}
+.main .platform__box-img img {
+  width: 100%;
+  height: 100%;
+}
+.main .platform__box-content {
+  padding: 0 42px 0 390px;
+}
+.main .platform__box-title {
+  font-family: "Readax Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 128%;
+  text-align: right;
+  color: #000000;
+}
+.main .platform__box-desc {
+  font-family: "Readex Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 120%;
+  text-align: right;
+  color: #000000;
+}
+.main .platform__box2 {
+  background-color: #FFF;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 639px;
+  height: 270px;
+  border-radius: 32px;
+}
+.main .platform__box2__content2 {
+  padding: 106px 42px 87px 46px;
+}
+.main .platform__box2__img2 {
+  padding: 0 216px 0 42px;
+  width: 381px;
+  height: 270px;
+}
+.main .platform__box2__img2 img {
+  width: 100%;
+  height: 100%;
+}
+.main .platform__right {
+  display: flex;
+  align-items: center;
+  justify-content: unset;
+}
+.main .platform__box3 {
+  border-radius: 32px;
+  margin-right: 16px;
+  width: 312px;
+  height: 792px;
+  background-color: #FFF;
+}
+.main .platform__box3-img3 {
+  padding: 144px 0 0 16px;
+  width: 405px;
+  height: 367px;
+}
+.main .platform__box3 .platform__box-content3 {
+  padding: 150px 31px 144px 31px;
+}
+.main .platform__box3 .platform__box-title3 {
+  font-family: "Readax Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 128%;
+  text-align: center;
+  color: #000000;
+}
+.main .platform__box3 .platform__box-desc3 {
+  font-family: "Readex Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 120%;
+  text-align: center;
+  color: #000000;
+}
+.main .save {
+  margin-bottom: 74px;
+  height: 490px;
+}
+.main .save__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main .save__title {
+  padding-top: 78px;
+  font-family: "Readex Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 125%;
+  text-align: center;
+}
+.main .save__desc {
+  padding-top: 9px;
+  font-family: "Readex Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 129%;
+  color: #000000;
+  text-align: center;
+}
+.main .save__box {
+  margin-right: 86px;
+  padding-top: 85px;
+  width: 303px;
+  height: 270px;
+}
+.main .save__box-img {
+  width: 247px;
+  height: 214px;
+  padding: 28px;
+}
+.main .save__box-img img {
+  width: 100%;
+  height: 100%;
+}
+.main .save__box-title {
+  padding-top: 37px;
+  font-family: "Readex Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 125%;
+  color: #000000;
+}
+.main .save__box-desc {
+  padding-top: 9px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+  color: #4B4B4B;
+}
+.main .save__box-mon {
+  padding-top: 25px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 120%;
+  color: #000000;
+}
+.main .around {
+  padding-top: 74px;
+  height: 663px;
+}
+.main .around__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main .around__title {
+  font-family: "Readex Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 125%;
+  text-align: center;
+  color: #000000;
+  padding-bottom: 9px;
+}
+.main .around__desc {
+  font-family: "Readex Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 129%;
+  color: #000000;
+  text-align: center;
+  padding-bottom: 97px;
+}
+.main .around__box {
+  background-color: #F8F9FA;
+  border-radius: 16px;
+  width: 413px;
+  height: 453px;
+}
+.main .around__box-title {
+  padding-top: 41px;
+  font-family: "Readex Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 129%;
+  text-align: center;
+  color: #000000;
+}
+.main .around__box-desc {
+  font-family: "Readex Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 125%;
+  text-align: center;
+  color: #000000;
+}
+.main .around__box .around__btn {
+  padding: 30px 112px 30px 111px;
+}
+.main .around__box .around__btn-text {
+  padding: 14px 53px;
+  width: 170px;
+  height: 50px;
+  margin-top: 30px;
+  border: 1px solid #000;
+  border-radius: 200px;
+}
+.main .around__box-img {
+  padding: 30px 77px 0 77px;
+}
+.main .around__box-img img {
+  width: 100%;
+  height: 100%;
+}
+
+/* HEADER - END*//*# sourceMappingURL=main.css.map */
